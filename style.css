@@ -225,9 +225,8 @@
 
 .our__amazing {
     background-image: url('img/bg2.png');
-    background-repeat: no-repeat;
     text-align: center;
-    padding: 50px;
+    padding: 60px;
 }
 
 .our__amazing__title {
@@ -285,6 +284,7 @@
 
 .our__amazing__subtext {
     font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
     color: gainsboro;
     margin-bottom: 20px;
 }
@@ -299,6 +299,48 @@
     padding: 14px;
     cursor: pointer;
     margin: auto; 
+}
+
+.our__works__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    align-items: center;
+}
+
+.our__works__title {
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    
+}
+
+.our__works__text {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+
+.our__works__image_1 {
+    width: 100%;
+}
+
+.our__works__image_2 {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.our__works__button {
+    border: 1px solid rgb(5, 210, 210);
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(5, 210, 210);
+    text-transform: uppercase;
+    width: fit-content;
+    padding: 14px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 
