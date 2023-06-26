@@ -83,7 +83,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(5, 210, 210);
     width: fit-content;
-    padding: 14px 14px;
+    padding: 14px;
     margin: 20px auto;
     cursor: pointer;
     text-transform: uppercase;
@@ -145,7 +145,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(5, 210, 210);
     width: fit-content;
-    padding: 14px 14px;
+    padding: 14px;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -222,6 +222,94 @@
     font-family: 'Times New Roman', Times, serif;
     color: gray;
 }
+
+.our__amazing {
+    background-image: url('img/bg2.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px;
+}
+
+.our__amazing__title {
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.our__amazing__text {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.our__amazing__dash {
+    height: 1px;
+    background: gray;
+    width: 50px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.our__amazing__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our__amazing__item {
+    width: 100%;
+}
+
+.our__amazing__image {
+    margin-bottom: 20px;
+}
+
+.our__amazing__name {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.our__amazing__job {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.our__amazing__subtext {
+    font-size: 16px;
+    color: gainsboro;
+    margin-bottom: 20px;
+}
+
+.our__amazing__button {
+    border: 1px solid rgb(5, 210, 210);
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(5, 210, 210);
+    text-transform: uppercase;
+    width: fit-content;
+    padding: 14px;
+    cursor: pointer;
+    margin: auto; 
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
