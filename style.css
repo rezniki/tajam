@@ -586,8 +586,14 @@
 }
 
 .footer__search {
+    margin-left: 10px;
     margin-bottom: 20px;
 }
+
+.footer__tajam__creative {
+    display: block;
+}
+
 
 
 
