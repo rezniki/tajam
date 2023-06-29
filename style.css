@@ -492,7 +492,7 @@
 }
 
 .our__happy__image__nike {
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .our__happy__image__converse {
@@ -510,6 +510,93 @@
 .our__happy__image__bill {
     margin-left: 50px;
 }
+
+.footer {
+    background-image: url('img/footer.png');
+    padding: 80px;
+    display: flex;
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+.footer__text {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gainsboro;
+    width: 30%;
+}
+
+.footer__our__address {
+    margin-bottom: 20px;
+}
+
+.footer__our__title {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: gainsboro;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer__nav {
+    width: 20px;
+    height: 30px;
+}
+
+.footer__our__address__text {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gainsboro;
+}
+
+.footer__our__address {
+    display: flex;
+}
+
+.footer__our__address__text {
+    margin-left: 10px;
+    width: 50%;
+}
+
+.footer__our__phonenumber {
+    display: flex;
+    align-items: center;
+}
+
+.footer__phonenumber__image {
+    width: 20px;
+    height: 20px;
+}
+
+.footer__phonenumber {
+    margin-left: 10px;
+    color: gainsboro;
+}
+
+.footer__stay__title {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: gainsboro;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer__search {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
