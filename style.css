@@ -43,14 +43,11 @@
     text-transform: uppercase;
 }
 
-.main {
+.main__container {
     background-image: url('img/bg.png');
     border-top: 1px solid transparent;
-    padding-bottom: 50px;
-}
-
-.main__container {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .main__title {
@@ -67,6 +64,7 @@
     background: rgb(5, 210, 210);
     width: 50px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .main__text {
@@ -75,6 +73,9 @@
     color: white;
     margin-top: 20px;
     padding-bottom: 40px;
+    width: 40%;
+    margin: auto;
+
 }
 
 .main__button {
@@ -224,13 +225,13 @@
     color: gray;
 }
 
-.our__amazing {
+.amazing {
     background-image: url('img/bg2.png');
     text-align: center;
     padding: 60px;
 }
 
-.our__amazing__title {
+.amazing__title {
     font-size: 27px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
@@ -238,14 +239,14 @@
     margin-bottom: 10px;
 }
 
-.our__amazing__text {
+.amazing__text {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
     margin-bottom: 20px;
 }
 
-.our__amazing__dash {
+.amazing__dash {
     height: 1px;
     background: gray;
     width: 50px;
@@ -253,21 +254,21 @@
     margin-bottom: 50px;
 }
 
-.our__amazing__items {
+.amazing__items {
     display: flex;
     justify-content: space-between;
     
 }
 
-.our__amazing__item {
+.amazing__item {
     width: 100%;
 }
 
-.our__amazing__image {
+.amazing__image {
     margin-bottom: 20px;
 }
 
-.our__amazing__name {
+.amazing__name {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -276,7 +277,7 @@
     margin-bottom: 8px;
 }
 
-.our__amazing__job {
+.amazing__job {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: gainsboro;
@@ -284,14 +285,14 @@
     margin-bottom: 50px;
 }
 
-.our__amazing__subtext {
+.amazing__subtext {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: gainsboro;
     margin-bottom: 20px;
 }
 
-.our__amazing__button {
+.amazing__button {
     border: 1px solid rgb(5, 210, 210);
     font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -303,7 +304,7 @@
     margin: auto; 
 }
 
-.our__works__content {
+.works__content {
     display: flex;
     justify-content: space-between;
     padding: 80px;
@@ -312,30 +313,30 @@
     margin: 0 auto;
 }
 
-.our__works__title {
+.works__title {
     font-size: 27px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.our__works__text {
+.works__text {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: gray;
     cursor: pointer;
 }
 
-.our__works__image_1 {
+.works__image_1 {
     width: 100%;
 }
 
-.our__works__image_2 {
+.works__image_2 {
     width: 100%;
     margin-bottom: 50px;
 }
 
-.our__works__button {
+.works__button {
     border: 1px solid rgb(5, 210, 210);
     font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -348,12 +349,12 @@
     margin-bottom: 50px;
 }
 
-.our__team__main {
+.team__main {
     background-image: url('img/workers.png');
     padding: 50px;
 }
 
-.our__team__symbol {
+.team__symbol {
     font-size: 50px;
     font-weight: 800;
     color: white;
@@ -361,7 +362,7 @@
     text-align: center;
 }
 
-.our__team__text {
+.team__text {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -371,7 +372,7 @@
     margin-bottom: 30px;
 }
 
-.our__team__name {
+.team__name {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -381,7 +382,7 @@
     margin-bottom: 10px;
 }
 
-.our__team__job {
+.team__job {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: gainsboro;
@@ -390,14 +391,14 @@
     margin-bottom: 50px;
 }
 
-.our__team__images {
+.team__images {
     display: flex;
     align-items: center;
     width: 30%;
     margin: 0 auto;
 }
 
-.our__team__image {
+.team__image {
     display: block;
     margin-left: 20px;
 }
@@ -471,7 +472,7 @@
     cursor: pointer;
 }
 
-.our__happy__title {
+.happy__title {
     font-size: 27px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
@@ -479,35 +480,35 @@
     margin-bottom: 30px;
 }
 
-.our__happy__logo {
+.happy__logo {
     margin-bottom: 30px;
 }
 
-.our__happy__image__mango {
+.happy__image__mango {
     margin-left: 30px;
 }
 
-.our__happy__image__gucci {
+.happy__image__gucci {
     margin-left: 30px;
 }
 
-.our__happy__image__nike {
+.happy__image__nike {
     margin-left: 50px;
 }
 
-.our__happy__image__converse {
+.happy__image__converse {
     margin-left: 20px;
 }
 
-.our__happy__image__puma {
+.happy__image__puma {
     margin-left: 50px;
 }
 
-.our__happy__image__levis {
+.happy__image__levis {
     margin-left: 20px;
 }
 
-.our__happy__image__bill {
+.happy__image__bill {
     margin-left: 50px;
 }
 
@@ -515,6 +516,10 @@
     background-image: url('img/footer.png');
     padding: 80px;
     display: flex;
+}
+
+.footer__tajam {
+    width: 50%;
 }
 
 .footer__logo {
@@ -525,7 +530,6 @@
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: gainsboro;
-    width: 30%;
 }
 
 .footer__our__address {
@@ -590,8 +594,18 @@
     margin-bottom: 20px;
 }
 
+.footer__icons {
+    flex-wrap: nowrap;
+}
+
+.footer__icon {
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 10px;
+}
+
 .footer__tajam__creative {
-    display: block;
+    flex-wrap: nowrap;
 }
 
 
