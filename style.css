@@ -44,13 +44,19 @@
 }
 
 @media (max-width: 768px) {
-    .header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        background: transparent;
-        width: 30%;
+    .header__container {
+        width: 90%;
     }
+
+    .header__logo {
+        align-items: center;
+    }
+
+    .header__menu {
+        align-items: center;
+        width: 70%;
+    }
+
 }
 
 .main__container {
@@ -233,6 +239,20 @@
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: gray;
+}
+
+@media (max-width: 768px) {
+    .expertise__text {
+        width: 80%;
+    }
+
+    .expertise__item__card {
+        display: block;
+    }
+
+    .expertise__item__text {
+        width: 80%;
+    }
 }
 
 .amazing {
