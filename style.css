@@ -177,14 +177,35 @@
 }
 
 @media (max-width: 768px) {
+    .our__story__content {
+        flex-wrap: wrap-reverse;
+    }
+
     .our__story__symbol {
-        margin-left: 50px;
-        width: 70%;
-        
+        margin: auto;
     }
 
     .our__story__main__text {
-        width: 80%;
+        margin: 0;
+    }
+
+    .our__story__title {
+        text-align: center;
+    }    
+
+    .our__story__text {
+        margin: auto;
+        text-align: center;
+    }
+
+    .our__story__subtext {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .our__story__button {
+        margin: auto;
+        margin-bottom: 50px;
     }
 }
 
@@ -260,20 +281,6 @@
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: gray;
-}
-
-@media (max-width: 768px) {
-    .expertise__text {
-        width: 80%;
-    }
-
-    .expertise__item__card {
-        display: block;
-    }
-
-    .expertise__item__text {
-        width: 85%; 
-    }
 }
 
 .amazing {
@@ -407,7 +414,6 @@
 
 .team__main {
     background-image: url('img/workers.png');
-    padding: 50px;
 }
 
 .team__symbol {
@@ -415,6 +421,7 @@
     font-weight: 800;
     color: white;
     margin-bottom: 20px;
+    padding-top: 50px;
     text-align: center;
 }
 
@@ -460,7 +467,11 @@
 
 @media (max-width: 768px) {
     .team__images {
-        width: 63%;
+        width: 56%;
+    }
+
+    .team__image {
+        margin-bottom: 50px;
     }
 }
 
@@ -578,8 +589,8 @@
         display: block;
     }
 
-    .give__news__button {
-        margin-bottom: 80px;
+    .give__news__title {
+        text-align: center;
     }
 
     .give__news__name {
@@ -596,6 +607,14 @@
 
     .give__news__message {
         width: 50%;
+    }
+
+    .give__news__button {
+        margin-bottom: 80px;
+    }
+
+    .happy__title {
+        text-align: center;
     }
 }
 
