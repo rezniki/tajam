@@ -463,6 +463,7 @@
 
 .team__image {
     margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
@@ -595,22 +596,31 @@
 
     .give__news__name {
         width: 50%;
+        margin: auto;
+        margin-bottom: 30px;
     }
 
     .give__news__email {
         width: 50%;
+        margin: auto;
+        margin-bottom: 30px;
     }
 
     .give__news__subject {
         width: 50%;
+        margin: auto;
+        margin-bottom: 30px;
     }
 
     .give__news__message {
         width: 50%;
+        margin: auto;
+        margin-bottom: 30px;
     }
 
     .give__news__button {
-        margin-bottom: 80px;
+        margin: auto;
+        margin-bottom: 50px;
     }
 
     .happy__title {
@@ -763,6 +773,28 @@
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: gainsboro;
+}
+
+@media (max-width: 768px) {
+    .footer__content__tajam {
+        flex-wrap: wrap;
+    }
+
+    .footer__text {
+        text-align: center;
+    }
+
+    .footer__tajam {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .footer__our__phonenumber {
+        margin-bottom: 70px;
+    }
+    
+    
+
 }
 
 
