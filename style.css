@@ -68,6 +68,18 @@
     }
 }
 
+@media (max-width: 320px) {
+    .header__logo {
+        width: 50%;
+        height: 80%;
+    }
+
+    .header__link {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+
 .main__container {
     background-image: url('img/bg.png');
     border-top: 1px solid transparent;
@@ -129,6 +141,14 @@
     border-radius: 100px;
     margin-left: 5px;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .main__container {
+        background-image: url('img/bg.png') 50% no-repeat;
+        background-size: cover;
+        padding-top: 80px;
+    }
 }
 
 .our__story__content {
@@ -209,6 +229,12 @@
     }
 }
 
+@media (max-width: 320px) {
+    .our__story__subtext {
+        margin-bottom: 40px;
+    }
+}
+
 .watch__our__story {
     background-image: url('img/video.png');
     padding: 90px;
@@ -281,6 +307,12 @@
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: gray;
+}
+
+@media (max-width: 320px) {
+    .expertise__item__card {
+        flex-wrap: wrap;
+    }
 }
 
 .amazing {
@@ -362,6 +394,11 @@
 }
 
 @media (max-width: 768px) {
+    .amazing {
+        background-image: url('img/bg2.png') 50% no-repeat;
+        background-size: cover;
+    }
+
     .amazing__items {
         flex-wrap: wrap;
     }
@@ -410,6 +447,12 @@
     cursor: pointer;
     margin: auto;
     margin-bottom: 50px;
+}
+
+@media (max-width: 320px) {
+    .works__content {
+        width: 40%;
+    }
 }
 
 .team__main {
@@ -473,6 +516,12 @@
 
     .team__image {
         margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .team__images {
+        flex-wrap: wrap;
     }
 }
 
@@ -630,12 +679,14 @@
 
 .footer {
     background-image: url('img/footer.png');
-    padding: 80px;
 }
 
 .footer__content__tajam {
     display: flex;
+    padding-top: 70px;
+    margin-left: 50px;
     margin-bottom: 70px;
+    align-items: center;
 }
 
 .footer__tajam {
@@ -746,6 +797,9 @@
 .footer__tajam__creative {
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
 }
 
 .footer__help {
@@ -792,9 +846,20 @@
     .footer__our__phonenumber {
         margin-bottom: 70px;
     }
-    
-    
+}
 
+@media (max-width: 320px) {
+    .footer__search {
+        width: 90%;
+    }
+
+    .footer__tajam__creative {
+        flex-wrap: wrap;
+    }
+
+    .footer__help {
+        margin-bottom: 50px;
+    }
 }
 
 
