@@ -60,7 +60,7 @@
     .header__menu {
         flex-wrap: wrap;
         align-items: center;
-        width: 40%;
+        width: 80%;
     }
 
     .header__link {
@@ -70,8 +70,12 @@
 
 @media (max-width: 320px) {
     .header__logo {
-        width: 50%;
+        width: 60%;
         height: 80%;
+    }
+
+    .header__menu {
+        width: 38%;
     }
 
     .header__link {
@@ -450,8 +454,8 @@
 }
 
 @media (max-width: 320px) {
-    .works__content {
-        width: 40%;
+    .works__title {
+        padding-right: 30px;
     }
 }
 
@@ -497,11 +501,16 @@
     margin-bottom: 50px;
 }
 
-.team__images {
+.team__images{
     display: flex;
     align-items: center;
     width: 28%;
     margin: 0 auto;
+}
+
+.team__icon {
+    margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 .team__image {
@@ -510,6 +519,11 @@
 }
 
 @media (max-width: 768px) {
+    .team__main {
+        background-image: url('img/workers.png') 50% no-repeat;
+        background-size: cover;
+    }
+
     .team__images {
         width: 56%;
     }
@@ -522,6 +536,11 @@
 @media (max-width: 320px) {
     .team__images {
         flex-wrap: wrap;
+        width: 20%;
+    }
+
+    .team__icon {
+        transform: rotate(90deg);
     }
 }
 
@@ -674,6 +693,48 @@
 
     .happy__title {
         text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .give__news__name {
+        width: 100%;
+    }
+
+    .give__news__email {
+        width: 100%;
+    }
+
+    .give__news__subject {
+        width: 100%;
+    }
+
+    .give__news__message {
+        width: 100%;
+    }
+
+    .happy__title {
+        margin-bottom: 50px;
+    }
+
+    .happy__image__zara {
+        margin-bottom: 50px;
+    }
+
+    .happy__image__new {
+        margin-bottom: 50px;
+    }
+
+    .happy__image__calvin {
+        margin-bottom: 50px;
+    }
+
+    .happy__image__converse {
+        margin-bottom: 50px;
+    }
+
+    .happy__image__levis {
+        margin-bottom: 50px;
     }
 }
 
@@ -830,6 +891,11 @@
 }
 
 @media (max-width: 768px) {
+    .footer {
+        background-image: url('img/footer.png') 50% no-repeat;
+        background-size: cover;
+    }
+
     .footer__content__tajam {
         flex-wrap: wrap;
     }
@@ -849,6 +915,10 @@
 }
 
 @media (max-width: 320px) {
+    .footer__tajam {
+        width: 70%;
+    }
+
     .footer__search {
         width: 90%;
     }
