@@ -533,7 +533,7 @@
     margin-bottom: 50px;
 }
 
-.team__images{
+.team__images {
     display: flex;
     align-items: center;
     width: 28%;
@@ -698,7 +698,7 @@
         text-align: center;
     }
 
-    .give__news__name {
+    .give__news__name  {
         width: 50%;
         margin: auto;
         margin-bottom: 30px;
