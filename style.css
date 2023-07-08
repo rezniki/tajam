@@ -101,18 +101,16 @@
     font-weight: 600;
     color: white;
     margin-top: 200px;
-    margin-bottom: 20px;
 }
 
-.main__title::before {
-    border-bottom: 1px solid rgb(5, 210, 210);
-}
-
-.main__dash {
+.main__title::after {
+    display: block;
+    content: "";
     height: 1px;
     background: rgb(5, 210, 210);
     width: 50px;
     margin: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -296,14 +294,16 @@
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: grey;
-    margin-bottom: 15px;
 }
 
-.expertise__dash {
+.expertise__text::after {
+    display: block;
+    content: "";
     height: 1px;
     background: gray;
     width: 50px;
     margin: auto;
+    margin-top: 15px;
     margin-bottom: 50px;
 }
 
@@ -357,14 +357,16 @@
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    margin-bottom: 20px;
 }
 
-.amazing__dash {
+.amazing__text::after {
+    display: block;
+    content: "";
     height: 1px;
     background: gray;
     width: 50px;
     margin: auto;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
