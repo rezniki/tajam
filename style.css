@@ -43,6 +43,10 @@
     text-transform: uppercase;
 }
 
+.header__link:hover {
+    color: rgb(5, 210, 210);
+}
+
 @media (max-width: 768px) {
     .header {
         position: absolute;
@@ -100,6 +104,10 @@
     margin-bottom: 20px;
 }
 
+.main__title::before {
+    border-bottom: 1px solid rgb(5, 210, 210);
+}
+
 .main__dash {
     height: 1px;
     background: rgb(5, 210, 210);
@@ -130,6 +138,10 @@
     cursor: pointer;
     text-transform: uppercase;
     margin-bottom: 80px;
+}
+
+.main__button:hover {
+    color: rgb(113, 14, 205);
 }
 
 .main__circle  {
@@ -200,6 +212,10 @@
     cursor: pointer;
 }
 
+.our__story__button:hover {
+    color: rgb(113, 14, 205);
+}
+
 @media (max-width: 768px) {
     .our__story__content {
         flex-wrap: wrap-reverse;
@@ -257,6 +273,10 @@
     text-transform: uppercase;
     text-align: center;
     cursor: pointer;
+}
+
+.watch__our__story__text:hover {
+    color:rgb(5, 210, 210);
 }
 
 .expertise__content {
@@ -397,6 +417,10 @@
     margin: auto; 
 }
 
+.amazing__button:hover {
+    color:rgb(113, 14, 205);
+}
+
 @media (max-width: 768px) {
     .amazing {
         background-image: url('img/bg2.png') 50% no-repeat;
@@ -431,6 +455,10 @@
     cursor: pointer;
 }
 
+.works__text:hover {
+    color: rgb(5, 210, 210);
+}
+
 .works__image_1 {
     width: 100%;
 }
@@ -451,6 +479,10 @@
     cursor: pointer;
     margin: auto;
     margin-bottom: 50px;
+}
+
+.works__button:hover {
+    color:rgb(113, 14, 205);
 }
 
 @media (max-width: 320px) {
@@ -611,6 +643,10 @@
     margin-left: 30px;
     width: fit-content;
     cursor: pointer;
+}
+
+.give__news__button:hover {
+    color: rgb(113, 14, 205);
 }
 
 .happy__title {
@@ -875,6 +911,10 @@
     cursor: pointer;
 }
 
+.footer__subtext__help:hover {
+    color: rgb(5, 210, 210);
+}
+
 .footer__subtext {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
@@ -882,6 +922,10 @@
     text-transform: uppercase;
     padding-left: 30px;
     cursor: pointer;
+}
+
+.footer__subtext:hover {
+    color: rgb(5, 210, 210);
 }
 
 .footer__creative__text {
