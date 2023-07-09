@@ -663,27 +663,15 @@
     margin-bottom: 30px;
 }
 
-.happy__image__mango {
+.happy__image__mango, .happy__image__gucci {
     margin-left: 30px;
 }
 
-.happy__image__gucci {
-    margin-left: 30px;
-}
-
-.happy__image__nike {
+.happy__image__nike, .happy__image__puma {
     margin-left: 50px;
 }
 
-.happy__image__converse {
-    margin-left: 20px;
-}
-
-.happy__image__puma {
-    margin-left: 50px;
-}
-
-.happy__image__levis {
+.happy__image__converse, .happy__image__levis {
     margin-left: 20px;
 }
 
@@ -700,25 +688,13 @@
         text-align: center;
     }
 
-    .give__news__name {
+    .give__news__name, .give__news__email {
         width: 50%;
         margin: auto;
         margin-bottom: 30px;
     }
 
-    .give__news__email {
-        width: 50%;
-        margin: auto;
-        margin-bottom: 30px;
-    }
-
-    .give__news__subject {
-        width: 50%;
-        margin: auto;
-        margin-bottom: 30px;
-    }
-
-    .give__news__message {
+    .give__news__subject, .give__news__message {
         width: 50%;
         margin: auto;
         margin-bottom: 30px;
@@ -735,15 +711,11 @@
 }
 
 @media (max-width: 320px) {
-    .give__news__name {
+    .give__news__name, .give__news__email {
         width: 100%;
     }
 
-    .give__news__email {
-        width: 100%;
-    }
-
-    .give__news__subject {
+    .give__news__subject, .give__news__message {
         width: 100%;
     }
 
@@ -755,19 +727,11 @@
         margin-bottom: 50px;
     }
 
-    .happy__image__zara {
+    .happy__image__zara, .happy__image__new {
         margin-bottom: 50px;
     }
 
-    .happy__image__new {
-        margin-bottom: 50px;
-    }
-
-    .happy__image__calvin {
-        margin-bottom: 50px;
-    }
-
-    .happy__image__converse {
+    .happy__image__calvin, .happy__image__converse {
         margin-bottom: 50px;
     }
 
